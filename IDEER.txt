@@ -1,0 +1,12 @@
+dessa är ordnade enligt vad jag känner är nödvändigast atm
+
+1. textures (fixar när jag inte har internet tror jag) -- tror det kan vara bra att ha en till kungen för det ser lite konstigt ut när det står penis
+2. interface runt om själva brädan, typ menyknapp etc
+2.a pausmeny
+5. ta sönder bricka - animation(explosion)
+6. göra så vi kan publicera appen när vi är klara + typ koda in reklam?
+7. webbsida med tillhörande trailer LOL (Du får fixa webbsidan // Dahl)
+
+vet inte var jag ska placera:
+- kunna byta tema på spelet
+- kunna byta regler på spelet (byta regler?)

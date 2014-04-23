@@ -1,0 +1,40 @@
+fileFormatVersion: 2
+guid: 39d29a2b115a5c245bd955d5b6fd8484
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerTurn: {instanceID: 0}
+  - whiteQueenSprite: {fileID: 21300000, guid: 389dc8fb48309ce40a77c0e8cd7cc0bf, type: 3}
+  - blackQueenSprite: {fileID: 21300000, guid: 7db20d2d0a3e625489e162365ac79561, type: 3}
+  - moveSound: {instanceID: 0}
+  - madeKing: {instanceID: 0}
+  - destroySound: {instanceID: 0}
+  - tempPiece: {instanceID: 0}
+  - tempGreen: {instanceID: 0}
+  - black1: {instanceID: 0}
+  - black2: {instanceID: 0}
+  - black3: {instanceID: 0}
+  - black4: {instanceID: 0}
+  - black5: {instanceID: 0}
+  - black6: {instanceID: 0}
+  - black7: {instanceID: 0}
+  - black8: {instanceID: 0}
+  - black9: {instanceID: 0}
+  - black10: {instanceID: 0}
+  - black11: {instanceID: 0}
+  - black12: {instanceID: 0}
+  - white1: {instanceID: 0}
+  - white2: {instanceID: 0}
+  - white3: {instanceID: 0}
+  - white4: {instanceID: 0}
+  - white5: {instanceID: 0}
+  - white6: {instanceID: 0}
+  - white7: {instanceID: 0}
+  - white8: {instanceID: 0}
+  - white9: {instanceID: 0}
+  - white10: {instanceID: 0}
+  - white11: {instanceID: 0}
+  - white12: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

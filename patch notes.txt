@@ -1,0 +1,64 @@
+Skriv vad du har gjort här Aron!!!
+
+===========Oskar 140406==============
+Fixade så att det gröna plutarna visas om man klickar på en bricka.
+Fick nästan de gröna plutarna att flyttas till rätt ställe.
+
+===========Oskar 140407==============
+Pluttarna flyttas men man kan nu klicka var man vill.
+
+9/4:
+ - Vad fint det var här
+ - main menu är fuckat nu, WIP
+
+===========Oskar 140410==============
+BUGGEN ÄR FIXAD!!!
+Det går att klicka på de gröna men man får error so there's that
+
+11/4
+ - Menyn har enbart en playknapp men den funkar och går vidare till själva spelet
+ - Game.scene är där jag försöker få igång så allt ritas upp beroende på skärmstorlek
+
+13/4
+ - 420 patch notes it
+ - TODO: pieceClicked() i clickPiece i Foreground behöver fixas, hela behöver omstruktureras. Får hjärnkramp när jag försöker skapa nåt sammanhang mellan piecePos och var de gröna pluttarna ska ligga.
+ - TODO: att flytta pjäserna till de gröna pluttarna
+ - TODO: resten av spelet hahahha
+
+14/4
+- Skulle gärna strukturera om det men vad står ettan för och annars vet jag inte vad problemet är.
+- Fixade så att alla brickor som är längst fram iaf får upp de gröna pluttarna.
+- Fått självmordstankar...
+- Jk
+- Vet inte hur man gör men kan de gröna pluttarna få ett script när de spawnar men har annars två funktioner(moveBlackPiece och moveWhitePiece) som kanske funkar.
+  Sen i scriptet till de gröna pluttarna så kanske man får ändra renderer.bounds.size / 2 till 0.55.
+
+14/4
+ - viktigast: har testat på emils och puertas telefoner, inga buggar som vi inte har
+ - på tal om buggar: det går att hoppa över motståndarpjäser nu (och de går sönder alltså) men bara vissa, lös dat shit
+ - döm inte mig för koden, jag är en bra människa egentligen
+
+15/4
+ - det funkar att dra i pjäserna för att flytta dem, klicka funkar dock inte längre, fixa om du orkar, tror inte det skulle användas ändå
+ - pjäsen blir en kung (det hette visst så i dam) när den når andra änden, texturen ändras också, så det funkar
+ - beroende på vilken färg vann visas antingen BlackWins.scene eller WhiteWins.scene (de är identiska just nu)
+ - har lagt in så brädan fyller upp skärmen på de allra vanligaste upplösningarna, notera att det inte funkar perfekt i Unity, ska funka på enheterna dock
+ - inga kända buggar i själva spelet
+ - 1 styck bugg på mobilenheter: "[01:14:31] Paontuus: Går även inte att gå tillbaka ut ifrån appen så man måste stänga av den manuellt"
+ - det är nu vi kan börja lägga in funktioner som vi vill ha, mina förslag finns i IDEER.txt, lägg in där om du vill, basically gör vad fan du vill
+
+16/4
+ - lagt till ljudeffekter
+ - spelet sparas automatiskt, inga kända buggar
+ - ljudet är nu globalt (så det finns ingen music manager i Scene, den följer med från menyn istället)
+ - inställning för att stänga av musiken
+ - inställning för att stänga av ljudeffekterna
+ - i huvudmenyn finns nu en Resumeknapp om det finns något att återuppta
+ - la till pausmenyn i Scene, man kan återvända till MainMenu
+
+ * Bugg 1: placePiece i Foreground glömmer ibland bort vilka sprites "whiteQueenSprite" och "blackQueenSprite" är
+ * Fixa : höja volymen på ljudeffekterna / sänka musiken // Fixad
+ * Bugg 2: ibland följer brickan med musen efter att man släppt knappen
+ * Bugg 3: Ibland så visas de gröna pluttarna om man har klickat på pjäsen och om man sen klickar på en grön pjäs så åker brickan dit och tillbaka men enligt spelet så har den ändå flyttats.
+ * Bugg 4: Ljudet som kommer när man blir kung spelas även om brickan redan är en kung // Fixad
+ * Fixa : vet inte vad som ska hända enligt reglerna men om man inte har några drag att göra så kan man inte fortsätta :O
