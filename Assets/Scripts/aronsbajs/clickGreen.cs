@@ -23,7 +23,7 @@ public class clickGreen : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	/*void Update () {
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 sizeMax = transform.position, sizeMin = transform.position, mus = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -36,7 +36,7 @@ public class clickGreen : MonoBehaviour {
 				Clicked();
             }
         }
-	}
+	}*/
 
 	public void Clicked(){
 		placePiece.movePiece(piece, this.gameObject);

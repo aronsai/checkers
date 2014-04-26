@@ -52,6 +52,8 @@ public class clickPiece : MonoBehaviour {
 
 					mouseDown = true;
 				}
+			} else {
+				mouseDown = false;
 			}
 		}
 
